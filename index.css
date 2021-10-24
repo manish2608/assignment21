@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    background-image: url("pexels-photo-7525202.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#myVideo {
+    /* position: fixed; */
+    box-shadow: 10px 13px 10px 6px pink;
+    margin: 30 px 30 px;
+    width: 50%;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+}
+
+#left {
+    float: left;
+    width: 40%;
+    height: 70px;
+    line-height: 5px;
+    background-color: skyblue;
+    font-style: oblique;
+}
+
+#right {
+    width: 60%;
+    background-color: skyblue;
+    float: right;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    text-decoration: none;
+}
+
+h1 {
+    color: deepskyblue;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 20px;
+    font-style: italic;
+    text-decoration: underline;
+    color: tomato;
+}
+
+#right a {
+    color: white;
+    padding: 0px 30px;
+    margin: 20px 0px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#right a:hover {
+    color: rgb(119, 64, 78);
+    background-color: rgb(148, 154, 156);
+    box-shadow: 6px 4px rgb(184, 188, 189);
+}
+
+.main {
+    text-align: center;
+    height: 100%;
+    /*background-color: wheat;*/
+}
+
+h2 {
+    margin: 30px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+td {
+    padding: 10px 100px 10px 100px;
+}
+
+img {
+    width: 300px;
+    height: 100%;
+    box-shadow: 10px 13px 10px 6px pink;
+}
+
+p {
+    text-align: center;
+    margin: auto;
+}
+
+#footer {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
+
+#footer p {
+    text-align: center;
+    background-color: black;
+}
+
+#footer h3 {
+    text-align: center;
+    background-color: black;
+}
